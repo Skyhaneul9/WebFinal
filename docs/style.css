@@ -1,0 +1,134 @@
+
+ html {
+    text-align:center;
+    background-color: rgb(28, 46, 75);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:90%;
+    max-width: 1100px;
+    margin-left:45px ;
+    margin-right:25px;
+   }
+ 
+  body {
+    margin-left:25px ;
+    margin-right:25px;
+    text-align:center;
+   }
+ 
+ /*Name*/
+   #photo h2{
+     font-family: 'Sofia', sans-serif;
+     font-size: 60px;
+     color: rgb(182, 103, 103);
+     font-weight:bolder;
+     background-color:rgb(28, 46, 75);
+   } 
+   
+   /*description*/
+   #photo h4{
+     font-family:inherit;
+     font-size: 22px;
+     color: white;
+     font-weight: lighter;
+   }
+ 
+ #photo >img{
+   padding-top: 80px;
+   width:290px;
+   height:360px;
+ }
+ 
+ 
+ #contactmeform{
+  font-size: 28px;
+  background-color:rgb(151, 151, 203);
+  text-align:center;
+}
+
+
+label{
+  display: inline-block;
+  width:150px;
+  height: 25px;
+  line-height: 75px;
+  text-align: justify;
+  text-align-last: justify;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: 1px;
+}
+ 
+ .buttons > button:hover {
+   background-color: lightblue;
+ }
+ 
+ button{
+   width:150px;
+   height:60px;
+ }
+ 
+ #resume{
+   border-radius:24px;
+   font-size: 20px;
+   background-color: white;
+   color: black;
+   margin-right: 15px;
+ }
+ 
+ #contactme{
+   margin-left: 15px;
+   margin-right: 15px;
+   border-radius:24px;
+   font-size: 20px;
+   color: white;
+   background-color: black;
+ }
+ 
+ #Mytable {
+   table-layout: fixed;
+   width: 800px;
+   border: none;
+   margin:auto;
+   padding: 10px 25px;
+  }
+ 
+ 
+ #honesty{
+   margin-top: 20px;
+   background-color:rgb(151, 151, 203);
+   text-align: left;
+ }
+ 
+ #education{
+   background-color:rgb(138, 138, 203);
+   text-align: left;
+ }
+ 
+ #education th{
+   border-collapse: collapse;
+   text-align: left;
+   border-collapse: collapse;
+   background-color: white;
+   padding:5px 9px;
+   font-size:15px;
+   font-weight:normal;
+   font-size:18px;
+   width: 50px;
+   height: 150px;
+   text-align:left;
+ }
+ 
+ #education table{
+   table-layout: fixed;
+   width: 900px;
+   border: none;
+   padding: 10px 25px;
+   margin-top: 5px;
+   margin-top: 5px;
+ }
+ 
+ 
+
+ 
