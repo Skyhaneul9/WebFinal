@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Haneuls Resume" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Haneul's Resume</title>
+  </head>
+  <body>
+    <main>
+      <section id="introduction" style="margin-bottom: auto;">
+        <div id="photo">
+          <img
+            src="./haneulRoh.jpg"
+            alt="Haneul Roh's Photo"
+          />
+          <h2>Haneul Roh</h2>
+          <h4>Computer Programmer, Web Developer</h4>
+        </div>
+      </section>
+
+      <section>
+        <div class="buttons">
+            <a href="./resume_haneul.pdf" download="My Resume">
+                <button id ="resume" alt="My Resume">Resume</button>
+            </a>
+          <button id="contactme">Contact Me</button>
+        </div>
+      </section>
+
+      <section id="honesty" style="margin-bottom: auto;">
+        <table border="0" id="Mytable">
+          <tbody>
+            <tr>
+              <th colspan="1" style="font-size:30px;width: 300px;height: 50px;font-weight: bolder;">Academic Honesty</th>
+              <th colspan="2" style="font-size:30px;width: 300px;height: 50px;font-weight: bolder;padding-left: 20px;">Basic Information</th>
+            </tr>
+
+            <tr>
+              <th rowspan="6" style="font-size:18px;font-weight: lighter;"><p>I declare that my assessment is wholly my own work in accordance with Seneca Academic 
+                Policy. No part of this assessment has been copied manually or electronically from any other 
+                source (including web sites) except for the information supplied by the WEB222 instructors and / 
+                or made available in this assessment for my use. I also declare that no part of this assignment 
+                has been distributed to other students.
+                </p></th>
+              <th style="padding-left: 20px;">AGE:</th>
+              <th style="font-size:18px;font-weight: lighter;">22</th>
+            </tr>
+
+            <tr>
+              <th style="padding-left: 20px;">EMAIL:</th>
+              <th style="font-size:18px;font-weight: lighter;">hroh8@myseneca.ca</th>
+            </tr>
+
+            <tr>
+              <th style="padding-left: 20px;">LANGUAGE:</th>
+              <th style="font-size:18px;font-weight: lighter;">English, Korean</th>
+            </tr>
+
+            <tr>
+              <th style="padding-left: 20px;">CLASS SECTION:</th>
+              <th style="font-size:18px;font-weight: lighter;">WEB222 ZCC</th>
+            </tr>
+
+            <tr>
+              <th style="padding-left: 20px;">STUDENT ID:</th>
+              <th style="font-size:18px;font-weight: lighter;">131229213</th>
+            </tr>
+
+            <tr>
+              <th style="padding-left: 20px;">INSTRUCTOR:</th>
+              <th style="font-size:18px;font-weight: lighter;">Muath Alzghool</th>
+            </tr>
+
+            <tr colspan="3">
+              <th style="font-size:18px;font-weight: lighter;"><strong>Date: APRIL 12, 2022</strong></th>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="education">
+        <h2 style="text-align:center;margin-top: 2px;padding-top: 20px;">Education</h2>
+
+        <table border="2">
+          <tbody>
+            <tr>
+              <th style="width: 3px;text-align: center;background-color: rgb(22, 22, 116);color: white;">
+                <p>2021 - 2022(expected)</p>
+                <p style="font-size: 24px;font-weight: bolder;">Diploma</p>
+              </th>
+              <th>
+                <p style="font-size: 26px;font-weight: bolder;height: 5px;margin-top: 2px;">Computer Programming</p>
+                <p style="font-size: 15px;color: grey;">SENECA COLLEGE</p>
+                <p style="font-size: 20px;">Computer Programming </p>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+
+      </section>
+
+      <!--Contact Me-->
+      <section id="contactmeform">
+        <h3 style="text-align:center;margin-top: 2px;padding-top: 20px;"></h3>
+        <p>Fill out the form - required*</p>
+
+        <!--Form for submit-->
+        <form id="contactme-" action="https://httpbin.org/post" method="POST">
+          <div class="fillup-form">
+          <label for="Name" style="font-size: 20px;font-weight: bolder;margin-top: 0px;">Name*</label>
+          <input class="form-control" id="Name" type="text" placeholder="FullName" autocomplete="given-name" required tabindex="1">
+          </div>
+
+          <div class="fillup-form">
+            <label for="Email" style="font-size: 20px;font-weight: bolder;margin-top: 0px;">Email*</label>
+            <input id="Email" type="email" placeholder="seneca@myseneca.ca" required tabindex="2">
+          </div>
+
+          <div class="fillup-form">
+            <label for="Address" style="font-size: 20px;font-weight: bolder;margin-top: 0px;">Address*</label>
+            <input id="Address" type="txt"  placeholder="Address" required tabindex="3">
+          </div>
+
+          <div class="fillup-form">
+            <label for="PostalCode" style="font-size: 20px;font-weight: bolder;margin-top: 0px;">PostalCode*</label>
+            <input id="postal-code" type="txt" placeholder="M2J 5G3" required tabindex="4">
+          </div>
+
+          <div class="fillup-form">
+            <label for="State" style="font-size: 20px;font-weight: bolder;height: 5px;margin-top: 0px;">State*</label>
+            <select class="form-froup" name="state" id="state" autocomplete="address-level1" tabindex="6" required style="font-size: 14px;font-weight: lighter;width: 165px; height: 25px;margin-top: 1px;">
+              <option>Ontario</option>
+              <option>Quebec</option>
+              <option>Nova Scotia</option>
+              <option>New Brunswick</option>
+              <option>Manitoba</option>
+              <option>British Colombia</option>
+              <option>Prince Edward Island</option>
+              <option>Saskatchewan</option>
+              <option>Alberta</option>
+              <option>Newfoundland and Labrador</option>
+            </select>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="option1" type="radio" id="options-question" name="options" value="question" tabindex="6" checked style="padding-right: 10px;;">
+            <label class="option2" for="options-question" style="font-size:18px;font-weight: lighter;margin:0px;padding: 0px;">Question</label>
+            <input class="option3" type="radio" id="options-comment" name="options" value="comment" tabindex="7">
+            <label class="option4" for="options-comment" style="font-size:18px;font-weight: lighter;margin:0px;padding: 0px;">Comment</label>
+            <input class="form-check-input" type="radio" id="options-hiring" name="options" value="hiring" tabindex="8">
+             <label class="form-check-label" for="options-hiring" style="font-size:18px;font-weight: lighter;margin:0px;padding: 0px;">Hiring</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+             <label class="wage1" for="options-question" style="font-size:18px;font-weight: lighter;margin:0px;padding-left: 20px; text-align: right;visibility: hidden;">HourlyRate*</label>
+             <input class="wage2" type="number" name="salary" id="salary" placeholder="Hourly Rate" tabindex="9" checked style="padding-right: 10px;visibility: hidden;">
+          </div>
+
+          <div>
+            <label for="description" class="form-label" style="font-size: 20px; display:flex;text-align:left;padding-bottom: 35px;padding-left: 170px;">Description*</label>
+              <div>
+                <textarea id="description" name="description" class="form-control" tabindex="9" required rows="5" style="width: 560px;height: 100px;"></textarea>
+              </div>
+          </div>
+
+          <input class="btn1" type="submit" value="Submit" name="submit" id="submit" tabindex="10">
+          <input class="btn2" type="reset" value="Reset" name="reset" id="reset" tabindex="11">
+        </form>
+
+      </section>
+    </main>
+    <script type = "text/javascript" src="./info.js"></script>
+  </body>
+</html>
